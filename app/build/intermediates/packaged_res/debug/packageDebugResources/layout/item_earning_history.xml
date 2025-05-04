@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/light_border"
+    app:strokeWidth="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Order Reference and Description -->
+        <TextView
+            android:id="@+id/earningDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="80dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textColor="@color/light_text_primary"
+            android:textSize="16sp"
+            tools:text="Order #12345" />
+
+        <TextView
+            android:id="@+id/orderReference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/earningDescription"
+            android:layout_marginEnd="80dp"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="14sp"
+            tools:text="Pizza Palace - John Doe" />
+
+        <!-- Amount and Date -->
+        <TextView
+            android:id="@+id/earningAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/primary"
+            android:textSize="16sp"
+            tools:text="$15.50" />
+
+        <TextView
+            android:id="@+id/earningDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/earningAmount"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="12sp"
+            tools:text="Mar 15, 2023" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView> 

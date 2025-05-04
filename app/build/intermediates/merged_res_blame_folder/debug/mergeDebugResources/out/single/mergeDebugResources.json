@@ -1,0 +1,1014 @@
+[
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_upload.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_completed_order.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_completed_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_chip_customer_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\chip_customer_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_status_background_failed.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\status_background_failed.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_theme_settings.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_theme_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_delivery_history.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_delivery_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_error.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\color_chip_text_selector.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\color\\chip_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background_dark.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_completed_orders.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_completed_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\color_chip_background_selector.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\color\\chip_background_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_wmap.png.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\wmap.png"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_arrow_down.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_arrow_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_progress_indicator.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\progress_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_dropdown_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\dropdown_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_preview_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\preview_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_notifications.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background_blue.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_sign_in_screen.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_sign_in_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_icon_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_cod_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\cod_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_tag.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_tag.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_man.png.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\man.png"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_theme_option_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\theme_option_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_ambulance.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_ambulance.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_error_circle.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_error_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_search_background_rounded.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\search_background_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_pending.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background_light_red.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background_light_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_delivery_history.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_delivery_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_map_placeholder.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\map_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_time.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_map_card_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\map_card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_chip_text_selector.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\chip_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_empty_orders.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\empty_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_notification_unread_dot.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\notification_unread_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_dialog_loading.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\dialog_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_layout_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\layout_bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_shape.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_location_marker_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\location_marker_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_today.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_batch_order.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_batch_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_theme_info_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\theme_info_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_button_gradient_bg.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\button_gradient_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_chip_address_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\chip_address_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_refresh.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_refresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_announcement.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_announcement.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_help_center.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_help_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_appearance.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_appearance.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_password_policy_success.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\password_policy_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background_primary.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_earnings.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_earnings.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_company.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_forgot_password_1.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_forgot_password_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_routes.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_routes.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_order_details.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_chip_order_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\chip_order_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_create_new_password.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_create_new_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_feedback.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_remove.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_remove.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_notification_count_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\notification_count_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_create_new_password_error.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_create_new_password_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_police.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_police.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_failed_order.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_failed_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_delivery.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\menu_navigation_drawer_menu.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\menu\\navigation_drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_status_badge_error_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\status_badge_error_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_debug.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_debug.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_setup_profile.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_setup_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_app_logo.png.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\app_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_orders.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_empty.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_status_badge_success_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\status_badge_success_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_completed.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_completed.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_empty_state_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\empty_state_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_home_page.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_status_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\status_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_top_bar_gradient.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\top_bar_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_dialog_manual_code_entry.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\dialog_manual_code_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_sun.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_sun.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_edit_text_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\edit_text_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_status_badge_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\status_badge_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_scanner_target.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\scanner_target.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_chat.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background_red.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_tab_background_unselected.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\tab_background_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_verification_code.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_verification_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_sequence_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_sequence_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_your_logo.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\your_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_filter.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_sos.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_sos.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_batch.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_batch.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_direction_straight.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_direction_straight.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_forgot_password1.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_forgot_password1.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_theme_option_selected.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\theme_option_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_sign_in_error.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_sign_in_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_cancelled.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_cancelled.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_scanner.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_route_stop.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_route_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_dark_surface_overlay.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\dark_surface_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_failed.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_failed.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_dropdown.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_dropdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_google.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_email_normal.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_email_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_forgot_password_error1.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_forgot_password_error1.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_routes.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_routes.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_pending_order.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_pending_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_in_progress.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_in_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_sign_up_error.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_sign_up_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_navigation.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_tab_background_selected.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\tab_background_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_download.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_barcode.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_barcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_pending_orders.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_pending_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_rounded_dialog_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\rounded_dialog_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_chip_restaurant_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\chip_restaurant_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_in_transit.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_in_transit.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_flash_on.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_flash_on.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_status_background_pending.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\status_background_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_call.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_batch_order.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\batch_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_success.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_new_order.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_new_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_registration_successfull.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_registration_successfull.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_batch.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_batch.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_btn_retry.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\btn_retry.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_system.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_system.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_approved.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_approved.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_earnings.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_earnings.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background_green.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_navigation_button_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\navigation_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_online.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_online.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_profile_picture_bg.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\profile_picture_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_success_background_gradient.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\success_background_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_warning.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_dialog_logout_confirmation.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\dialog_logout_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_search_result.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_search_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_work_authorization.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_work_authorization.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_success_icon_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\success_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_destination_marker.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_destination_marker.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_order_card_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\order_card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_scanner.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_btn_start.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\btn_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_input_field_error_bg.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\input_field_error_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_help.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_order_item.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_order_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_accepted.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_accepted.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_home_screen.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_home_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_status_changed.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_status_changed.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_flash_off.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_flash_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_emergency.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_switch_track_selector.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\switch_track_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_chip_default_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\chip_default_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background_yellow.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_switch_thumb.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_application_verification.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_application_verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_instruction_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\instruction_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_emergency_sos.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_emergency_sos.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_circle_background_orange.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\circle_background_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_failed_orders.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_failed_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_route_stop_item_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\route_stop_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_performance.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_performance.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_verification_code_error.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_verification_code_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_performance.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_performance.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_order.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_scanner_frame_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\scanner_frame_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_input_field_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\input_field_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_chip_background_selector.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\chip_background_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_rounded_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\rounded_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_user_location.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_user_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_layers.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_layers.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_message.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_scan.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_id_card.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_id_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_dialog_manual_entry.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\dialog_manual_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_driver_license.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_driver_license.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_navigation.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_sign_up_screen.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_sign_up_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_button_cancel_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\button_cancel_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_detail_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\detail_background.xml"
+    },
+    {
+        "merged": "com.tranxortrider.deliveryrider.app-debug-58:/layout_activity_scanner.xml.flat",
+        "source": "com.tranxortrider.deliveryrider.app-main-60:/layout/activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_stat_icon_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\stat_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\color_duty_status_text_selector.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\color\\duty_status_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_earning_history.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_earning_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_default_profile.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\default_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_restaurant.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_restaurant.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_search_background.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\search_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_screen.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_security.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_input_field_bg.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\input_field_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_distance.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_distance.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_keyword.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_keyword.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\color_bottom_nav_item_color.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\color\\bottom_nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_notification_badge_circle.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\notification_badge_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_recipient.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_recipient.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_sender.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_sender.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_moon.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_moon.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_item_notification.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\drawable_ic_sort.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\drawable\\ic_sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-debug-58:\\layout_activity_upload_document.xml.flat",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_upload_document.xml"
+    }
+]

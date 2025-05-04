@@ -1,0 +1,253 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Function to check if the user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Function to check if the user is accessing their own data
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+    
+    // Function to check if the user is an admin
+    function isAdmin() {
+      return isAuthenticated() && 
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+    
+    // Function to check if the admin has specific permission
+    function hasPermission(permission) {
+      return isAdmin() && 
+        get(/databases/$(database)/documents/admins/$(request.auth.uid)).data.permissions[permission] == true;
+    }
+    
+    // Function to check if a rider is approved
+    function isApprovedRider() {
+      return isAuthenticated() && 
+        exists(/databases/$(database)/documents/riders/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/riders/$(request.auth.uid)).data.applicationStatus == "approved";
+    }
+    
+    // Function to check if the rider is assigned to an order
+    function isAssignedRider(orderId) {
+      return isApprovedRider() && 
+        get(/databases/$(database)/documents/orders/$(orderId)).data.assignedRider == request.auth.uid;
+    }
+    
+    // Users collection rules
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create: if isAuthenticated() && isOwner(userId);
+      allow update: if isOwner(userId) || isAdmin();
+      allow delete: if isAdmin();
+    }
+    
+    // Riders collection rules
+    match /riders/{riderId} {
+      allow read: if isOwner(riderId) || isAdmin();
+      allow create: if isAuthenticated() && isOwner(riderId);
+      allow update: if isOwner(riderId) || 
+                     (isAdmin() && hasPermission("canApproveRiders"));
+      allow delete: if isAdmin() && hasPermission("canApproveRiders");
+    }
+    
+    // Orders collection rules
+    match /orders/{orderId} {
+      // Riders can read any order
+      allow read: if isApprovedRider() || isAdmin();
+      
+      // Only admins can create orders
+      allow create: if isAdmin();
+      
+      // Allow updates based on role and order status
+      allow update: if 
+        // Admins with permission can always update orders
+        (isAdmin() && hasPermission("canAssignOrders")) ||
+        
+        // Assigned riders can update order status
+        (isAssignedRider(orderId) && 
+          (request.resource.data.status == "ACCEPTED" ||
+           request.resource.data.status == "PICKED_UP" ||
+           request.resource.data.status == "COMPLETED" ||
+           request.resource.data.status == "FAILED")) ||
+        
+        // Any approved rider can reject an order
+        (isApprovedRider() && 
+          request.resource.data.diff(resource.data).affectedKeys()
+            .hasOnly(["rejectedRiders", "rejectionReasons"]));
+      
+      // Only admins can delete orders
+      allow delete: if isAdmin();
+    }
+    
+    // Batches collection rules
+    match /batches/{batchId} {
+      allow read: if isApprovedRider() || isAdmin();
+      allow create: if isApprovedRider() || (isAdmin() && hasPermission("canAssignOrders"));
+      allow update: if 
+        (isAdmin() && hasPermission("canAssignOrders")) ||
+        (isApprovedRider() && resource.data.riderId == request.auth.uid);
+      allow delete: if isAdmin() && hasPermission("canAssignOrders");
+      
+      // Batch orders subcollection
+      match /orders/{orderId} {
+        allow read: if isApprovedRider() || isAdmin();
+        allow write: if 
+          (isAdmin() && hasPermission("canAssignOrders")) ||
+          (isApprovedRider() && get(/databases/$(database)/documents/batches/$(batchId)).data.riderId == request.auth.uid);
+      }
+    }
+    
+    // Admins collection rules
+    match /admins/{adminId} {
+      allow read: if isAdmin();
+      allow write: if isAdmin() && hasPermission("canManageAdmins");
+    }
+    
+    // Admin logs collection rules
+    match /admin_logs/{logId} {
+      allow read: if isAdmin();
+      allow create: if isAdmin();
+      allow update, delete: if false; // Logs should be immutable
+    }
+    
+    // Notifications collection rules
+    match /notifications/{notificationId} {
+      allow read: if 
+        isAuthenticated() && 
+        resource.data.userId == request.auth.uid;
+      
+      allow create: if isAdmin();
+      
+      allow update: if 
+        isAuthenticated() && 
+        resource.data.userId == request.auth.uid &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(["isRead", "readAt"]);
+      
+      allow delete: if 
+        isAuthenticated() && 
+        resource.data.userId == request.auth.uid;
+    }
+    
+    // Rider notifications collection rules
+    match /rider_notifications/{notificationId} {
+      allow read: if 
+        isAuthenticated() && 
+        resource.data.riderId == request.auth.uid;
+      
+      allow create: if isAdmin();
+      
+      allow update: if 
+        isAuthenticated() && 
+        resource.data.riderId == request.auth.uid &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(["read"]);
+      
+      allow delete: if 
+        isAuthenticated() && 
+        resource.data.riderId == request.auth.uid;
+    }
+    
+    // Admin notifications collection rules
+    match /admin_notifications/{notificationId} {
+      allow read: if 
+        isAdmin() && 
+        resource.data.adminId == request.auth.uid;
+      
+      allow create: if isAdmin();
+      
+      allow update: if 
+        isAdmin() && 
+        resource.data.adminId == request.auth.uid &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(["read", "readAt"]);
+      
+      allow delete: if 
+        isAdmin() && 
+        resource.data.adminId == request.auth.uid;
+    }
+    
+    // Rider locations collection rules
+    match /rider_locations/{locationId} {
+      allow read: if isAdmin();
+      allow create: if 
+        isApprovedRider() && 
+        request.resource.data.riderId == request.auth.uid;
+      allow update, delete: if false; // Location records should be immutable
+    }
+    
+    // Admin rider tracking collection rules
+    match /admin_rider_tracking/{trackingId} {
+      allow read: if isAdmin();
+      allow create: if 
+        isApprovedRider() && 
+        request.resource.data.riderId == request.auth.uid;
+      allow update, delete: if isAdmin();
+    }
+    
+    // Package scans collection rules
+    match /packageScans/{scanId} {
+      allow read: if 
+        isAdmin() || 
+        (isApprovedRider() && resource.data.scannedBy == request.auth.uid);
+      
+      allow create: if 
+        isApprovedRider() && 
+        request.resource.data.scannedBy == request.auth.uid;
+      
+      allow update, delete: if false; // Scan records should be immutable
+    }
+    
+    // Order assignment requests collection rules
+    match /orderAssignmentRequests/{requestId} {
+      allow read: if 
+        isAdmin() || 
+        (isApprovedRider() && resource.data.riderId == request.auth.uid);
+      
+      allow create: if 
+        isApprovedRider() && 
+        request.resource.data.riderId == request.auth.uid;
+      
+      allow update: if isAdmin() && hasPermission("canAssignOrders");
+      
+      allow delete: if false; // Assignment requests should be immutable
+    }
+    
+    // Earnings collection rules
+    match /earnings/{earningId} {
+      allow read: if 
+        isAdmin() || 
+        (isApprovedRider() && resource.data.riderId == request.auth.uid);
+      
+      allow create: if isAdmin();
+      
+      allow update, delete: if false; // Earnings records should be immutable
+    }
+    
+    // User Documents collection rules
+    match /userDocuments/{documentId} {
+      allow read: if 
+        isAdmin() || 
+        (isAuthenticated() && resource.data.userId == request.auth.uid);
+      
+      allow create: if 
+        isAuthenticated() && 
+        request.resource.data.userId == request.auth.uid;
+      
+      allow update: if 
+        (isAdmin() && hasPermission("canApproveRiders")) || 
+        (isAuthenticated() && 
+         resource.data.userId == request.auth.uid && 
+         resource.data.status == "rejected");
+      
+      allow delete: if 
+        isAdmin() || 
+        (isAuthenticated() && resource.data.userId == request.auth.uid);
+    }
+    
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+} 

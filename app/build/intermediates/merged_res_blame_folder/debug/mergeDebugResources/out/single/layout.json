@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_routes.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_routes.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_order_item.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_order_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_create_new_password_error.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_create_new_password_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_failed_orders.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_failed_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_pending_order.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_pending_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_search.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_sign_up_screen.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_sign_up_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_home_screen.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_home_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\layout_bottom_navigation.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\layout_bottom_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_home_page.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_home_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_performance.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_performance.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\dialog_logout_confirmation.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\dialog_logout_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_sign_in_screen.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_sign_in_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_scanner.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_delivery_history.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_delivery_history.xml"
+    },
+    {
+        "merged": "com.tranxortrider.deliveryrider.app-mergeDebugResources-57:/layout/activity_scanner.xml",
+        "source": "com.tranxortrider.deliveryrider.app-main-60:/layout/activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_upload_document.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_upload_document.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_verification_code_error.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_verification_code_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_theme_settings.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_theme_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_pending_orders.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_pending_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_create_new_password.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_create_new_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_debug.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_debug.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_navigation.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_forgot_password_1.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_forgot_password_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_verification_code.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_verification_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_batch_order.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_batch_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\dialog_manual_code_entry.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\dialog_manual_code_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_forgot_password1.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_forgot_password1.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_help_center.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_help_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_registration_successfull.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_registration_successfull.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_emergency_sos.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_emergency_sos.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_sign_in_error.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_sign_in_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_order.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_delivery_history.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_delivery_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_application_verification.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_application_verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_failed_order.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_failed_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_notification.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_search_result.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_search_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\dialog_loading.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\dialog_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_batch.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_batch.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_setup_profile.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_setup_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_order_details.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\dialog_manual_entry.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\dialog_manual_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_completed_orders.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_completed_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_feedback.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_route_stop.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_route_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\batch_order.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\batch_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_forgot_password_error1.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_forgot_password_error1.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_completed_order.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_completed_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_notifications.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\item_earning_history.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\item_earning_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_sign_up_error.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_sign_up_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-mergeDebugResources-57:\\layout\\activity_earnings.xml",
+        "source": "C:\\Users\\QBC\\.gradle\\daemon\\8.10.2\\com.tranxortrider.deliveryrider.app-main-60:\\layout\\activity_earnings.xml"
+    }
+]

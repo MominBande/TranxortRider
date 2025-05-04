@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0.5dp"
+    app:strokeColor="#E0E0E0">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Order Number and Action Buttons -->
+        <LinearLayout
+            android:id="@+id/orderNumberSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                
+                <TextView
+                    android:id="@+id/tvOrderNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#700000000001"
+                    android:textColor="@color/light_text_primary"
+                    android:textSize="17sp"
+                    android:fontFamily="sans-serif-medium" />
+                    
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/ic_check"
+                    android:alpha="0.7"
+                    app:tint="@color/primary" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap to copy"
+                android:textColor="@color/light_text_secondary"
+                android:textSize="12sp"
+                android:alpha="0.7"
+                android:fontFamily="sans-serif" />
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:id="@+id/actionButtonsSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="0.5dp"
+                app:strokeColor="#E0E0E0"
+                app:cardBackgroundColor="#F8F9FA">
+                
+                <ImageView
+                    android:id="@+id/btnCall"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_call"
+                    app:tint="@color/primary" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="0.5dp"
+                app:strokeColor="#E0E0E0"
+                app:cardBackgroundColor="#F8F9FA">
+                
+                <ImageView
+                    android:id="@+id/btnMessage"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_message"
+                    app:tint="@color/primary" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="0.5dp"
+                app:strokeColor="#E0E0E0"
+                app:cardBackgroundColor="#F8F9FA">
+                
+                <ImageView
+                    android:id="@+id/btnMap"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_routes"
+                    app:tint="@color/primary" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- Status Section -->
+        <HorizontalScrollView
+            android:id="@+id/statusScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:scrollbars="none"
+            app:layout_constraintTop_toBottomOf="@id/orderNumberSection">
+            
+            <LinearLayout
+                android:id="@+id/statusSection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="#E0F2F1">
+                    
+                    <TextView
+                        android:id="@+id/tvStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="6dp"
+                        android:text="Completed"
+                        android:textColor="@color/primary"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="13sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="#E0F2F1">
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_delivery"
+                        android:drawablePadding="6dp"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="6dp"
+                        android:text="Delivery"
+                        android:textColor="@color/primary"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="13sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp"
+                    app:strokeWidth="0.5dp"
+                    app:strokeColor="#E0E0E0"
+                    app:cardBackgroundColor="#FFFFFF">
+                    
+                    <TextView
+                        android:id="@+id/tvAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="6dp"
+                        android:text="COD 1200.00 SAR"
+                        android:textColor="@color/light_text_primary"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="13sp" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="#FFEBEE">
+                    
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_time"
+                        android:drawablePadding="6dp"
+                        android:paddingHorizontal="12dp"
+                        android:paddingVertical="6dp"
+                        android:text="6:00 PM"
+                        android:textColor="#FF5252"
+                        android:fontFamily="sans-serif-medium"
+                        android:textSize="13sp" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Tap to Open Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/tapToOpenCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:strokeWidth="0.5dp"
+            app:strokeColor="#E0E0E0"
+            app:layout_constraintTop_toBottomOf="@id/statusScrollView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="6dp"
+                android:text="Double tap to open"
+                android:drawableStart="@drawable/ic_check"
+                android:drawablePadding="6dp"
+                android:textColor="@color/light_text_secondary"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Divider -->
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="#E0E0E0"
+            android:alpha="0.5"
+            app:layout_constraintTop_toBottomOf="@id/tapToOpenCard" />
+
+        <!-- Address Section -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/addressSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/divider">
+
+            <!-- Pickup Location -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/pickupMarkerCard"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="1dp"
+                app:cardBackgroundColor="#4D7BC8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/tvPickupAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="123 Broadway, New York, NY 10001"
+                android:textColor="@color/light_text_primary"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@id/pickupMarkerCard"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/pickupMarkerCard"
+                app:layout_constraintBottom_toBottomOf="@id/pickupMarkerCard" />
+
+            <View
+                android:id="@+id/routeLine"
+                android:layout_width="2dp"
+                android:layout_height="0dp"
+                android:background="#E0E0E0"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintTop_toBottomOf="@id/pickupMarkerCard"
+                app:layout_constraintBottom_toTopOf="@id/deliveryMarkerCard"
+                app:layout_constraintStart_toStartOf="@id/pickupMarkerCard"
+                app:layout_constraintEnd_toEndOf="@id/pickupMarkerCard" />
+
+            <TextView
+                android:id="@+id/tvToLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to"
+                android:textColor="@color/light_text_secondary"
+                android:layout_marginStart="24dp"
+                app:layout_constraintStart_toEndOf="@id/routeLine"
+                app:layout_constraintTop_toBottomOf="@id/pickupMarkerCard"
+                app:layout_constraintBottom_toTopOf="@id/deliveryMarkerCard" />
+
+            <!-- Delivery Location -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/deliveryMarkerCard"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="1dp"
+                app:cardBackgroundColor="@color/primary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pickupMarkerCard">
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="B"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="14sp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/tvDeliveryAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="456 5th Avenue, New York, NY 10018"
+                android:textColor="@color/light_text_primary"
+                android:fontFamily="sans-serif"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@id/deliveryMarkerCard"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/deliveryMarkerCard"
+                app:layout_constraintBottom_toBottomOf="@id/deliveryMarkerCard" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Show Details Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnShowDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SHOW DETAILS"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="14sp"
+            android:textColor="@color/teal_700"
+            app:backgroundTint="#E0F2F1"
+            app:cornerRadius="8dp"
+            app:rippleColor="#80009688"
+            app:layout_constraintTop_toBottomOf="@id/addressSection"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".activities.RoutesActivity">
+
+    <!-- Top Bar with gradient background and elevation -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@drawable/top_bar_gradient"
+        android:elevation="4dp"
+        android:paddingHorizontal="@dimen/spacing_medium">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Routes"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextAppearance.TranxortRider.Toolbar.Title"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSearch"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@android:color/transparent"
+                app:cornerRadius="18dp"
+                app:icon="@drawable/ic_search"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconSize="@dimen/icon_size_medium"
+                app:iconTint="@color/white" />
+
+            <FrameLayout
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="@dimen/spacing_small">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnNotifications"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:insetLeft="0dp"
+                    android:insetTop="0dp"
+                    android:insetRight="0dp"
+                    android:insetBottom="0dp"
+                    app:backgroundTint="@android:color/transparent"
+                    app:cornerRadius="18dp"
+                    app:icon="@drawable/ic_notifications"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="@dimen/icon_size_medium"
+                    app:iconTint="@color/white" />
+                
+                <TextView
+                    android:id="@+id/notificationCount"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="end|top"
+                    android:background="@drawable/notification_badge_circle"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Map View with improved design -->
+    <FrameLayout
+        android:id="@+id/mapContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNav"
+        android:layout_below="@id/topBar">
+
+        <!-- Map View (this would be an actual MapView in implementation) -->
+        <ImageView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wmap" />
+
+        <!-- Floating Action Button for map controls -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabMapLayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:layout_margin="16dp"
+            app:fabSize="mini"
+            app:backgroundTint="@android:color/white"
+            app:tint="@color/primary"
+            app:elevation="4dp"
+            android:src="@drawable/ic_layers" />
+
+        <!-- Start Navigation Button with improved styling -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartNavigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="16dp"
+            android:text="Start Navigation"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            app:icon="@drawable/ic_navigation"
+            app:iconTint="@android:color/white"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:cornerRadius="24dp"
+            app:backgroundTint="@color/primary"
+            app:elevation="4dp" />
+
+        <!-- Route Details Card with improved styling -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/routeDetailsCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/light_surface">
+
+            <!-- Route Heading with improved styling -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+                    
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Today's Route"
+                            android:textColor="@color/primary"
+                            android:textSize="22sp"
+                            android:fontFamily="sans-serif-medium" />
+                            
+                        <TextView
+                            android:id="@+id/tvRouteDescription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Brooklyn Area Deliveries"
+                            android:textColor="@color/light_text_secondary"
+                            android:textSize="16sp"
+                            android:fontFamily="sans-serif" />
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="16dp"
+                        app:cardBackgroundColor="@color/primary"
+                        app:cardElevation="0dp">
+                        
+                        <TextView
+                            android:id="@+id/tvProgressIndicator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1/4 stops"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp"
+                            android:fontFamily="sans-serif-medium"
+                            android:paddingHorizontal="12dp"
+                            android:paddingVertical="8dp" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/routeProgress"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:layout_marginTop="16dp"
+                    android:progress="25"
+                    android:progressDrawable="@drawable/progress_indicator" />
+
+                <!-- Route Stops with improved styling -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvRouteStops"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:clipToPadding="false"
+                    android:nestedScrollingEnabled="true"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="2"
+                    tools:listitem="@layout/item_route_stop" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <!-- Bottom Navigation with improved styling -->
+    <include
+        android:id="@+id/bottomNav" 
+        layout="@layout/layout_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout> 

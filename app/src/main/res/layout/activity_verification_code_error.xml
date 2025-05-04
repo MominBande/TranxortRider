@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".verification_code_error">
+
+    <!-- Top area with gradient background -->
+    <View
+        android:id="@+id/topBackground"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/top_bar_gradient"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Main content card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="24dp"
+                android:paddingBottom="24dp"
+                android:paddingTop="80dp">
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/titleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Verification Code"
+                    android:textSize="28sp"
+                    android:textColor="@color/primary"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Instruction Text -->
+                <TextView
+                    android:id="@+id/instructionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please enter the 6-digit code we sent to your registered email address."
+                    android:textSize="16sp"
+                    android:textColor="@color/light_text_secondary"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Email Address -->
+                <TextView
+                    android:id="@+id/emailText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="john@example.com"
+                    android:textSize="16sp"
+                    android:textColor="@color/primary"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="4dp"
+                    android:layout_marginBottom="32dp" />
+
+                <!-- Verification Code Input -->
+                <LinearLayout
+                    android:id="@+id/verificationCodeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp">
+
+                    <!-- 6-digit input fields -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="48dp"
+                        android:layout_height="56dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="@color/red"
+                        app:cardBackgroundColor="#FFF3F3">
+                        
+                        <EditText
+                            android:id="@+id/code1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="18sp"
+                            android:textColor="@color/primary"
+                            android:fontFamily="sans-serif-medium"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="48dp"
+                        android:layout_height="56dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="@color/red"
+                        app:cardBackgroundColor="#FFF3F3">
+                        
+                        <EditText
+                            android:id="@+id/code2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="18sp"
+                            android:textColor="@color/primary"
+                            android:fontFamily="sans-serif-medium"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="48dp"
+                        android:layout_height="56dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="@color/red"
+                        app:cardBackgroundColor="#FFF3F3">
+                        
+                        <EditText
+                            android:id="@+id/code3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="18sp"
+                            android:textColor="@color/primary"
+                            android:fontFamily="sans-serif-medium"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="48dp"
+                        android:layout_height="56dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="@color/red"
+                        app:cardBackgroundColor="#FFF3F3">
+                        
+                        <EditText
+                            android:id="@+id/code4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="18sp"
+                            android:textColor="@color/primary"
+                            android:fontFamily="sans-serif-medium"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="48dp"
+                        android:layout_height="56dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="@color/red"
+                        app:cardBackgroundColor="#FFF3F3">
+                        
+                        <EditText
+                            android:id="@+id/code5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="18sp"
+                            android:textColor="@color/primary"
+                            android:fontFamily="sans-serif-medium"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="48dp"
+                        android:layout_height="56dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="@color/red"
+                        app:cardBackgroundColor="#FFF3F3">
+                        
+                        <EditText
+                            android:id="@+id/code6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            android:textSize="18sp"
+                            android:textColor="@color/primary"
+                            android:fontFamily="sans-serif-medium"/>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+
+                <!-- Error Message -->
+                <TextView
+                    android:id="@+id/errorMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invalid OTP"
+                    android:textSize="14sp"
+                    android:textColor="@color/red"
+                    android:fontFamily="sans-serif"
+                    android:drawablePadding="8dp"
+                    app:drawableStartCompat="@drawable/ic_error"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="32dp" />
+
+                <!-- Submit Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/submitButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Submit"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="@color/primary"
+                    app:cornerRadius="16dp"
+                    app:elevation="2dp"
+                    android:layout_marginBottom="24dp"/>
+
+                <!-- Resend Code -->
+                <TextView
+                    android:id="@+id/resendCodeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resend - 00:59"
+                    android:textSize="16sp"
+                    android:textColor="@color/primary"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="8dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Logo positioned to overlap between gradient and card -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/app_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="17dp"
+        android:contentDescription="App Logo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

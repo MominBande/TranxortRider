@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Widget Style for TranxortRider -->
+    <style name="Widget.TranxortRider" parent="@android:style/Widget" />
+    
+    <!-- Base application theme. -->
+    <style name="Theme.TranxortRider" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_light</item>
+        <item name="colorSecondaryVariant">@color/primary_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:navigationBarColor">@color/dark_background</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <!-- Make sure layout adjusts for system navigation -->
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:navigationBarDividerColor" tools:targetApi="o_mr1">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="q">false</item>
+        <!-- Ensure UI properly extends to the edges of the screen -->
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Card background -->
+        <item name="cardBackgroundColor">@color/dark_surface</item>
+        <!-- App background color -->
+        <item name="backgroundColor">@color/dark_background</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+        <!-- Apply text input style -->
+        <item name="textInputStyle">@style/TextInputEditTextStyle.Dark</item>
+        <!-- Shape appearances -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.TranxortRider.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.TranxortRider.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.TranxortRider.LargeComponent</item>
+        <!-- Divider color -->
+        <item name="dividerColor">@color/dark_divider</item>
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.TranxortRider.Button.Dark</item>
+    </style>
+    
+    <!-- Button style for dark theme -->
+    <style name="Widget.TranxortRider.Button.Dark" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/TextAppearance.TranxortRider.Button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    
+    <!-- TextInputLayout style for dark theme -->
+    <style name="TextInputEditTextStyle.Dark" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="android:textColor">@color/dark_text_primary</item>
+        <item name="android:textColorHint">@color/dark_text_secondary</item>
+        <item name="startIconTint">@color/primary</item>
+        <item name="endIconTint">@color/primary</item>
+        <item name="boxBackgroundColor">@color/dark_surface</item>
+    </style>
+</resources>

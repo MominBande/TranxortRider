@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "893868588564",
+    "project_id": "tranxortrider",
+    "storage_bucket": "tranxortrider.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893868588564:android:26d6ba7e5ef6ddf940f101",
+        "android_client_info": {
+          "package_name": "com.tranxortrider.deliveryrider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBastZAfP8ocwCx0tjEzrMa7fc75gqzy4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

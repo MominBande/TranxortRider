@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".verification_code">
+
+    <!-- Top area with gradient background -->
+    <View
+        android:id="@+id/topBackground"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/top_bar_gradient"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Main content card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="24dp"
+                android:paddingBottom="24dp"
+                android:paddingTop="80dp">
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/titleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Verification Code"
+                    android:textSize="28sp"
+                    android:textColor="@color/primary"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Instruction Text -->
+                <TextView
+                    android:id="@+id/instructionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please enter the 6-digit code we sent to your registered email address."
+                    android:textSize="16sp"
+                    android:textColor="@color/light_text_secondary"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Email Address -->
+                <TextView
+                    android:id="@+id/emailText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="john@example.com"
+                    android:textSize="16sp"
+                    android:textColor="@color/primary"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="4dp"
+                    android:layout_marginBottom="32dp" />
+
+                <!-- Updated single code input field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="6"
+                    app:counterTextColor="@color/primary"
+                    app:hintEnabled="false"
+                    android:layout_marginBottom="24dp">
+                    
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/codeEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:background="@drawable/input_field_bg"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:textSize="18sp"
+                        android:textColor="@color/primary"
+                        android:fontFamily="sans-serif-medium"
+                        android:hint="Enter 6-digit code"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Verify Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/verifyButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Verify Code"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="@color/primary"
+                    app:cornerRadius="16dp"
+                    app:elevation="2dp"
+                    android:layout_marginBottom="24dp"/>
+
+                <!-- Countdown and Resend Section -->
+                <TextView
+                    android:id="@+id/countdownTimerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resend code in 01:00"
+                    android:textSize="14sp"
+                    android:textColor="@color/light_text_secondary"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginBottom="8dp"/>
+                
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/resendButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resend Code"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif-medium"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:textColor="@color/primary"
+                    android:enabled="false"/>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Logo positioned to overlap between gradient and card -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/app_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="17dp"
+        android:contentDescription="App Logo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".activities.ThemeSettingsActivity">
+
+    <!-- Top Bar with gradient background -->
+    <View
+        android:id="@+id/topBarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/top_bar_gradient"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        app:icon="@drawable/ic_back"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconTint="@android:color/white"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="24dp"
+        android:backgroundTint="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/topBarBackground" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme Settings"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/topBarBackground" />
+
+    <!-- Content ScrollView -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@id/topBarBackground"
+        app:layout_constraintBottom_toTopOf="@id/bottomNav">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <!-- Company Name Section -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Company Name"
+                        android:textColor="@color/aesthgreen"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Set your company name to be displayed throughout the app"
+                        android:textColor="@color/light_text_secondary"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/companyNameInputLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="64dp"
+                            app:boxBackgroundMode="filled"
+                            app:boxBackgroundColor="#F5F7FA"
+                            app:boxStrokeWidth="0dp"
+                            app:boxStrokeWidthFocused="0dp"
+                            app:hintEnabled="false"
+                            app:shapeAppearance="@style/ShapeAppearance.TranxortRider.MediumComponent">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/etCompanyName"
+                                android:layout_width="match_parent"
+                                android:layout_height="56dp"
+                                android:hint="Tranxort"
+                                android:fontFamily="sans-serif"
+                                android:textSize="16sp"
+                                android:paddingVertical="16dp" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnCompany"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            app:icon="@drawable/ic_company"
+                            app:iconGravity="textStart"
+                            app:iconPadding="0dp"
+                            app:iconTint="@android:color/white"
+                            android:insetLeft="0dp"
+                            android:insetTop="0dp"
+                            android:insetRight="0dp"
+                            android:insetBottom="0dp"
+                            app:cornerRadius="16dp"
+                            android:backgroundTint="@color/aesthgreen" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Theme Mode Section -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Theme Mode"
+                        android:textColor="@color/aesthgreen"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Choose how you want your app to look"
+                        android:textColor="@color/light_text_secondary"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal">
+
+                        <!-- Light Theme Option -->
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/optionLight"
+                            android:layout_width="0dp"
+                            android:layout_height="160dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="2dp"
+                            app:strokeWidth="2dp"
+                            app:strokeColor="@color/aesthgreen"
+                            app:cardBackgroundColor="#FFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="16dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:background="#FFF9C4"
+                                    android:padding="12dp"
+                                    app:shapeAppearanceOverlay="@style/CircleImageView"
+                                    android:src="@drawable/ic_sun" 
+                                    android:layout_marginBottom="16dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Light"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:fontFamily="sans-serif-medium" />
+
+                                <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    app:cardCornerRadius="12dp"
+                                    app:cardBackgroundColor="@color/aesthgreen"
+                                    android:layout_gravity="end|top"
+                                    android:layout_marginTop="-96dp"
+                                    android:layout_marginEnd="-4dp">
+
+                                    <ImageView
+                                        android:layout_width="16dp"
+                                        android:layout_height="16dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_check_circle"
+                                        app:tint="@android:color/white" />
+                                </com.google.android.material.card.MaterialCardView>
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <!-- Dark Theme Option -->
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/optionDark"
+                            android:layout_width="0dp"
+                            android:layout_height="160dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="2dp"
+                            app:strokeWidth="0dp"
+                            app:cardBackgroundColor="#FFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="16dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:background="#263238"
+                                    android:padding="12dp"
+                                    app:shapeAppearanceOverlay="@style/CircleImageView"
+                                    android:src="@drawable/ic_moon"
+                                    app:tint="@android:color/white"
+                                    android:layout_marginBottom="16dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Dark"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:fontFamily="sans-serif-medium" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <!-- System Theme Option -->
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/optionSystem"
+                            android:layout_width="0dp"
+                            android:layout_height="160dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_weight="1"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="2dp"
+                            app:strokeWidth="0dp"
+                            app:cardBackgroundColor="#FFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="16dp">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:layout_width="56dp"
+                                    android:layout_height="56dp"
+                                    android:background="#E8EAF6"
+                                    android:padding="12dp"
+                                    app:shapeAppearanceOverlay="@style/CircleImageView"
+                                    android:src="@drawable/ic_system"
+                                    android:layout_marginBottom="16dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="System"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:fontFamily="sans-serif-medium" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+
+                    <!-- Theme Description -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="0dp"
+                        app:cardBackgroundColor="#F5F7FA">
+
+                        <TextView
+                            android:id="@+id/tvThemeDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="16dp"
+                            android:text="Light mode provides better readability in bright environments with a clean, white background."
+                            android:textColor="#757575"
+                            android:textSize="14sp"
+                            android:fontFamily="sans-serif" />
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Font Family Section -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Font Family"
+                        android:textColor="@color/aesthgreen"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Select a font that matches your brand identity"
+                        android:textColor="@color/light_text_secondary"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif" />
+
+                    <!-- Font Dropdown -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        app:cardCornerRadius="16dp"
+                        app:cardElevation="0dp"
+                        app:cardBackgroundColor="#F5F7FA">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="16dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_toStartOf="@id/fontDropdownIcon">
+
+                                <TextView
+                                    android:id="@+id/tvFontLabel"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Selected Font"
+                                    android:textColor="#757575"
+                                    android:textSize="14sp"
+                                    android:fontFamily="sans-serif" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:text="Inter"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:fontFamily="sans-serif-medium" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/fontDropdownIcon"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_dropdown" />
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Preview Button -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Preview"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        app:backgroundTint="@color/aesthgreen"
+                        app:cornerRadius="16dp"
+                        app:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_background"
+        app:itemIconTint="@color/bottom_nav_item_color"
+        app:itemTextColor="@color/bottom_nav_item_color"
+        app:menu="@menu/bottom_nav_menu"
+        app:labelVisibilityMode="selected"
+        app:itemRippleColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:selectedItemId="@+id/nav_settings" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 

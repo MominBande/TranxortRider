@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="vehicle_types">
+        <item>Motorcycle</item>
+        <item>Car</item>
+        <item>Bicycle</item>
+        <item>Scooter</item>
+        <item>Van</item>
+    </string-array>
+    <attr format="color" name="backgroundColor"/>
+    <attr format="color" name="cardBackgroundColor"/>
+    <attr format="reference|string" name="selectedItemId"/>
+    <attr format="color" name="textColorPrimary"/>
+    <attr format="color" name="textColorSecondary"/>
+    <color name="aesthgreen">#1E3F60</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="danger">#F44336</color>
+    <color name="dark_background">#FF121212</color>
+    <color name="dark_border">#3DFFFFFF</color>
+    <color name="dark_card">#FF252525</color>
+    <color name="dark_divider">#3DFFFFFF</color>
+    <color name="dark_surface">#FF1E1E1E</color>
+    <color name="dark_text_primary">#DEFFFFFF</color>
+    <color name="dark_text_secondary">#99FFFFFF</color>
+    <color name="dark_text_tertiary">#61FFFFFF</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="error_color">#F44336</color>
+    <color name="gray">#808080</color>
+    <color name="green">#4CAF50</color>
+    <color name="grey">#808080</color>
+    <color name="info">#2196F3</color>
+    <color name="light_background">#FFFFFFFF</color>
+    <color name="light_border">#E0E0E0</color>
+    <color name="light_divider">#E0E0E0</color>
+    <color name="light_surface">#FFF5F5F5</color>
+    <color name="light_text_primary">#DE000000</color>
+    <color name="light_text_secondary">#99000000</color>
+    <color name="light_text_tertiary">#61000000</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="notification_color">#1E3F60</color>
+    <color name="orange">#FF9800</color>
+    <color name="primary">#1E3F60</color>
+    <color name="primary_light">#6684A1</color>
+    <color name="purple">#9C27B0</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FFFF0000</color>
+    <color name="red2">#F44336</color>
+    <color name="route_color">#2196F3</color>
+    <color name="success">#4CAF50</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="warning">#FFC107</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFEB3B</color>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="bottom_nav_height">64dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="corner_radius_large">16dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="icon_button_radius">18dp</dimen>
+    <dimen name="icon_button_size">36dp</dimen>
+    <dimen name="icon_size_large">32dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen>
+    <dimen name="icon_size_small">18dp</dimen>
+    <dimen name="input_field_height">48dp</dimen>
+    <dimen name="list_icon_padding">10dp</dimen>
+    <dimen name="list_icon_size">48dp</dimen>
+    <dimen name="notification_badge_size">18dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="stat_icon_padding">12dp</dimen>
+    <dimen name="stat_icon_size">48dp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <integer name="google_play_services_version">12451000</integer>
+    <string name="app_name">Tranxort Rider</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="gcm_defaultSenderId" translatable="false">893868588564</string>
+    <string name="google_api_key" translatable="false">AIzaSyBastZAfP8ocwCx0tjEzrMa7fc75gqzy4E</string>
+    <string name="google_app_id" translatable="false">1:893868588564:android:26d6ba7e5ef6ddf940f101</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBastZAfP8ocwCx0tjEzrMa7fc75gqzy4E</string>
+    <string name="google_storage_bucket" translatable="false">tranxortrider.firebasestorage.app</string>
+    <string name="loading">Loading…</string>
+    <string name="nav_earnings">Earnings</string>
+    <string name="nav_emergency">Emergency</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_history">History</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_performance">Performance</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_settings">Settings</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="next">Next</string>
+    <string name="ok">OK</string>
+    <string name="project_id" translatable="false">tranxortrider</string>
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="try_again">Try Again</string>
+    <style name="BottomNavigationViewStyle">
+        <item name="labelVisibilityMode">selected</item>
+        <item name="android:background">@color/light_background</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="itemIconSize">24dp</item>
+        <item name="itemIconTint">@color/bottom_nav_item_color</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color</item>
+        <item name="elevation">8dp</item>
+        <item name="itemRippleColor">@android:color/transparent</item>
+        <item name="android:minHeight">64dp</item>
+        
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="RoundedDialogStyle" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+    <style name="ShapeAppearance.TranxortRider.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearance.TranxortRider.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.TranxortRider.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_text_primary</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Body.Small" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_text_primary</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/light_text_secondary</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Headline" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/light_text_primary</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Link" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Subheading" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_text_primary</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Tab" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Title" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/light_text_primary</item>
+    </style>
+    <style name="TextAppearance.TranxortRider.Toolbar.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextInputEditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="android:textColor">@color/light_text_primary</item>
+        <item name="android:textColorHint">@color/light_text_secondary</item>
+        <item name="startIconTint">@color/primary</item>
+        <item name="endIconTint">@color/primary</item>
+    </style>
+    <style name="Theme.Hidden" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="Theme.PlayCore.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.TranxortRider" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/primary_light</item>
+        <item name="colorSecondaryVariant">@color/primary_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/light_background</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
+        
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:navigationBarDividerColor" ns1:targetApi="o_mr1">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast" ns1:targetApi="q">false</item>
+        
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <item name="cardBackgroundColor">@color/white</item>
+        
+        <item name="backgroundColor">@color/light_background</item>
+        
+        <item name="android:textColorPrimary">@color/light_text_primary</item>
+        <item name="android:textColorSecondary">@color/light_text_secondary</item>
+        
+        <item name="textInputStyle">@style/TextInputEditTextStyle</item>
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.TranxortRider.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.TranxortRider.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.TranxortRider.LargeComponent</item>
+        
+        <item name="dividerColor">@color/light_divider</item>
+        
+        <item name="materialButtonStyle">@style/Widget.TranxortRider.Button</item>
+    </style>
+    <style name="Theme.TranxortRider.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="Theme.TranxortRider.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Widget.TranxortRider" parent="@android:style/Widget"/>
+    <style name="Widget.TranxortRider.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textAppearance">@style/TextAppearance.TranxortRider.Button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="Widget.TranxortRider.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/TextAppearance.TranxortRider.Button</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="rippleColor">@color/primary_light</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.0</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="Widget.TranxortRider.CardView" parent="Widget.TranxortRider">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">?attr/cardBackgroundColor</item>
+    </style>
+    <style name="Widget.TranxortRider.Chip" parent="Widget.TranxortRider">
+        <item name="chipBackgroundColor">@color/white</item>
+        <item name="chipStrokeColor">@color/primary</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="rippleColor">@color/primary_light</item>
+    </style>
+    <style name="Widget.TranxortRider.Toolbar" parent="Widget.TranxortRider">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="titleTextAppearance">@style/TextAppearance.TranxortRider.Toolbar.Title</item>
+    </style>
+    <style name="Widget.TranxortRider.TopBar" parent="Widget.TranxortRider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@drawable/top_bar_gradient</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+</resources>

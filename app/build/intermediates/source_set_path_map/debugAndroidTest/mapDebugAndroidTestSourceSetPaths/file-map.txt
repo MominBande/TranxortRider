@@ -1,0 +1,6 @@
+com.tranxortrider.deliveryrider.test.app-tracing-1.2.0-0 C:\Users\QBC\.gradle\caches\8.10.2\transforms\2359530931e9073fb7cd21d3616f0e7d\transformed\tracing-1.2.0\res
+com.tranxortrider.deliveryrider.test.app-core-1.6.1-1 C:\Users\QBC\.gradle\caches\8.10.2\transforms\83b144a95d9bf8bb3db5abb83693f229\transformed\core-1.6.1\res
+com.tranxortrider.deliveryrider.test.app-androidTest-2 C:\Users\QBC\AndroidStudioProjects\TranxortRider\app\build\generated\res\resValues\androidTest\debug
+com.tranxortrider.deliveryrider.test.app-mergeDebugAndroidTestResources-3 C:\Users\QBC\AndroidStudioProjects\TranxortRider\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.tranxortrider.deliveryrider.test.app-mergeDebugAndroidTestResources-4 C:\Users\QBC\AndroidStudioProjects\TranxortRider\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.tranxortrider.deliveryrider.test.app-debugAndroidTest-5 C:\Users\QBC\AndroidStudioProjects\TranxortRider\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing dimensions optimized for tablets -->
+    <dimen name="spacing_xs">6dp</dimen>
+    <dimen name="spacing_small">12dp</dimen>
+    <dimen name="spacing_medium">20dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_xl">48dp</dimen>
+    <dimen name="spacing_xlarge">48dp</dimen>
+    
+    <!-- Component sizes optimized for tablets -->
+    <dimen name="toolbar_height">64dp</dimen>
+    <dimen name="bottom_nav_height">72dp</dimen>
+    <dimen name="avatar_size">56dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    
+    <!-- Responsive layout values optimized for tablets -->
+    <dimen name="icon_button_size">48dp</dimen>
+    <dimen name="icon_button_radius">24dp</dimen>
+    <dimen name="notification_badge_size">24dp</dimen>
+    <dimen name="stat_icon_size">64dp</dimen>
+    <dimen name="stat_icon_padding">16dp</dimen>
+    <dimen name="list_icon_size">56dp</dimen>
+    <dimen name="list_icon_padding">12dp</dimen>
+</resources> 

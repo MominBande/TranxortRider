@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    android:fitsSystemWindows="false">
+
+    <!-- Top Bar with gradient background and elevation -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_gradient"
+        android:paddingTop="32dp"
+        android:paddingBottom="12dp"
+        android:paddingHorizontal="@dimen/spacing_medium"
+        android:layout_alignParentTop="true"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextAppearance.TranxortRider.Toolbar.Title"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSearch"
+                android:layout_width="@dimen/icon_button_size"
+                android:layout_height="@dimen/icon_button_size"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@android:color/transparent"
+                app:cornerRadius="@dimen/icon_button_radius"
+                app:icon="@drawable/ic_search"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconSize="@dimen/icon_size_medium"
+                app:iconTint="@color/white" />
+
+            <FrameLayout
+                android:layout_width="@dimen/icon_button_size"
+                android:layout_height="@dimen/icon_button_size"
+                android:layout_marginStart="@dimen/spacing_small">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnNotifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:insetLeft="0dp"
+                    android:insetTop="0dp"
+                    android:insetRight="0dp"
+                    android:insetBottom="0dp"
+                    app:backgroundTint="@android:color/transparent"
+                    app:cornerRadius="@dimen/icon_button_radius"
+                    app:icon="@drawable/ic_notifications"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="@dimen/icon_size_medium"
+                    app:iconTint="@color/white" />
+                
+                <TextView
+                    android:id="@+id/notificationCount"
+                    android:layout_width="@dimen/notification_badge_size"
+                    android:layout_height="@dimen/notification_badge_size"
+                    android:layout_gravity="end|top"
+                    android:background="@drawable/notification_badge_circle"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Bottom Navigation with elevation -->
+    <include
+        android:id="@+id/bottomNavigation" 
+        layout="@layout/layout_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:elevation="8dp" />
+
+    <!-- Floating Action Button for scanner with improved shadow -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabScanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomNavigation"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/ic_scan"
+        app:tint="@android:color/white"
+        app:backgroundTint="@color/primary"
+        app:elevation="6dp"
+        app:fabSize="normal" />
+
+    <!-- Main Content -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation"
+        android:layout_below="@id/topBar"
+        android:layout_marginTop="0dp"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:paddingTop="8dp"
+        android:paddingBottom="@dimen/spacing_medium">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Profile Section as a card with proper positioning -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/profileSection"
+                style="@style/Widget.TranxortRider.CardView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/spacing_medium"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/profileImage"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:padding="0dp"
+                        android:src="@drawable/man"
+                        app:shapeAppearanceOverlay="@style/CircleImageView"
+                        app:strokeColor="@color/primary"
+                        app:strokeWidth="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/spacing_medium"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Welcome back,"
+                            android:textAppearance="@style/TextAppearance.TranxortRider.Body.Small"
+                            android:textColor="@color/light_text_secondary" />
+
+                        <TextView
+                            android:id="@+id/tvName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Waleed Tanveer"
+                            android:textAppearance="@style/TextAppearance.TranxortRider.Title"
+                            android:textColor="@color/light_text_primary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical">
+                        
+                        <TextView
+                            android:id="@+id/tvDutyStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="On Duty"
+                            android:textColor="@color/duty_status_text_selector"
+                            android:textSize="13sp"
+                            android:layout_marginEnd="8dp"/>
+                            
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/btnDutyStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:thumb="@drawable/switch_thumb"
+                            app:thumbTint="@color/white"
+                            app:trackTint="@null"
+                            app:track="@drawable/switch_track_selector" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Stats Cards with improved styling -->
+            <TextView
+                android:id="@+id/deliveriesTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deliveries"
+                android:textAppearance="@style/TextAppearance.TranxortRider.Subheading"
+                android:textColor="@color/light_text_primary"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_medium"
+                app:layout_constraintTop_toBottomOf="@id/profileSection"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/statsSection"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_small"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                app:layout_constraintTop_toBottomOf="@id/deliveriesTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/Widget.TranxortRider.CardView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/spacing_small"
+                    app:cardElevation="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/spacing_medium">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/stat_icon_size"
+                            android:layout_height="@dimen/stat_icon_size"
+                            android:layout_marginBottom="12dp"
+                            android:background="@drawable/stat_icon_background"
+                            android:padding="@dimen/stat_icon_padding"
+                            android:src="@drawable/ic_delivery"
+                            app:shapeAppearanceOverlay="@style/CircleImageView"
+                            app:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tvDeliveryCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="@style/TextAppearance.TranxortRider.Headline"
+                            android:textColor="@color/primary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Deliveries"
+                            android:textAppearance="@style/TextAppearance.TranxortRider.Caption"
+                            android:textColor="@color/light_text_secondary" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/Widget.TranxortRider.CardView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/spacing_small"
+                    app:cardElevation="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/spacing_medium">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="@dimen/stat_icon_size"
+                            android:layout_height="@dimen/stat_icon_size"
+                            android:layout_marginBottom="12dp"
+                            android:background="@drawable/stat_icon_background"
+                            android:padding="@dimen/stat_icon_padding"
+                            android:src="@drawable/ic_time"
+                            app:shapeAppearanceOverlay="@style/CircleImageView"
+                            app:tint="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/tvOnTimeRate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0%"
+                            android:textAppearance="@style/TextAppearance.TranxortRider.Headline"
+                            android:textColor="@color/primary" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="On Time"
+                            android:textAppearance="@style/TextAppearance.TranxortRider.Caption"
+                            android:textColor="@color/light_text_secondary" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <!-- Order cards with improved design -->
+            <TextView
+                android:id="@+id/ordersTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Orders"
+                android:textAppearance="@style/TextAppearance.TranxortRider.Subheading"
+                android:textColor="@color/light_text_primary"
+                android:layout_marginStart="@dimen/spacing_medium"
+                android:layout_marginTop="@dimen/spacing_large"
+                app:layout_constraintTop_toBottomOf="@id/statsSection"
+                app:layout_constraintStart_toStartOf="parent" />
+                
+            <!-- Filter buttons container with improved styling -->
+            <HorizontalScrollView
+                android:id="@+id/filterButtonsContainer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="@dimen/spacing_medium"
+                app:layout_constraintTop_toBottomOf="@id/ordersTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/filterAll"
+                        style="@style/Widget.TranxortRider.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="6dp"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="All Orders (1)"
+                        app:cornerRadius="20dp"
+                        app:strokeColor="@color/primary"
+                        app:strokeWidth="1dp" />
+                        
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/filterPending"
+                        style="@style/Widget.TranxortRider.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="6dp"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="Pending (1)"
+                        app:cornerRadius="20dp"
+                        app:strokeColor="@color/primary"
+                        app:strokeWidth="1dp" />
+                        
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/filterAccepted"
+                        style="@style/Widget.TranxortRider.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="6dp"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="Accepted (0)"
+                        app:cornerRadius="20dp"
+                        app:strokeColor="@color/primary"
+                        app:strokeWidth="1dp" />
+                        
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/filterCompleted"
+                        style="@style/Widget.TranxortRider.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:textSize="13sp"
+                        android:gravity="center"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:text="Completed (0)"
+                        app:cornerRadius="20dp"
+                        app:strokeColor="@color/primary"
+                        app:strokeWidth="1dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Orders RecyclerView with card styling -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pendingOrdersRecyclerView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="@dimen/spacing_medium"
+                android:clipToPadding="false"
+                android:paddingBottom="@dimen/spacing_medium"
+                app:layout_constraintTop_toBottomOf="@+id/filterButtonsContainer"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <!-- Loading View -->
+            <ProgressBar
+                android:id="@+id/loadingView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:visibility="gone"
+                android:indeterminateTint="@color/primary"
+                app:layout_constraintTop_toBottomOf="@+id/filterButtonsContainer"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+            
+            <!-- Empty Orders View -->
+            <LinearLayout
+                android:id="@+id/emptyOrdersView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="@dimen/spacing_medium"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/filterButtonsContainer"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/empty_orders"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No orders found"
+                    android:textAppearance="@style/TextAppearance.TranxortRider.Subheading"
+                    android:textColor="@color/light_text_primary"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check back soon for new delivery orders"
+                    android:textAppearance="@style/TextAppearance.TranxortRider.Body.Small"
+                    android:textColor="@color/light_text_secondary"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

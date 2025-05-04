@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".SettingsActivity">
+
+    <!-- Top Bar with gradient background and elevation -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_gradient"
+        android:elevation="4dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="18dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:backgroundTint="@android:color/transparent"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_back"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="24dp"
+            app:iconTint="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Settings"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:layout_above="@id/logoutButton"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Appearance Settings Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Appearance"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/light_text_primary"
+                        android:layout_marginBottom="16dp" />
+
+                    <!-- Dark Mode -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Theme Mode"
+                                android:textColor="@color/light_text_primary"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Select your preferred app theme"
+                                android:textColor="@color/light_text_secondary"
+                                android:textSize="12sp"
+                                android:layout_marginBottom="8dp" />
+
+                            <RadioGroup
+                                android:id="@+id/themeRadioGroup"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="4dp">
+
+                                <RadioButton
+                                    android:id="@+id/systemDefaultRadio"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="System Default"
+                                    android:textColor="@color/light_text_primary"
+                                    android:textSize="14sp"
+                                    android:buttonTint="@color/primary"
+                                    android:checked="true"
+                                    android:paddingVertical="4dp" />
+
+                                <RadioButton
+                                    android:id="@+id/lightModeRadio"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Light Mode"
+                                    android:textColor="@color/light_text_primary"
+                                    android:textSize="14sp"
+                                    android:buttonTint="@color/primary"
+                                    android:paddingVertical="4dp" />
+
+                                <RadioButton
+                                    android:id="@+id/darkModeRadio"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Dark Mode"
+                                    android:textColor="@color/light_text_primary"
+                                    android:textSize="14sp"
+                                    android:buttonTint="@color/primary"
+                                    android:paddingVertical="4dp" />
+                            </RadioGroup>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <!-- Font Size -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Text Size"
+                        android:textColor="@color/light_text_primary"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Adjust the size of text throughout the app"
+                        android:textColor="@color/light_text_secondary"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp">
+
+                        <com.google.android.material.slider.Slider
+                            android:id="@+id/fontSizeSlider"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toStartOf="@id/fontSizeValue"
+                            android:layout_centerVertical="true"
+                            android:valueFrom="80"
+                            android:valueTo="120"
+                            android:stepSize="10"
+                            android:value="100" />
+
+                        <TextView
+                            android:id="@+id/fontSizeValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:text="100%"
+                            android:textColor="@color/primary"
+                            android:textSize="16sp"
+                            android:minWidth="48dp"
+                            android:gravity="end" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/fontPreviewText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="This is a preview of the text size"
+                        android:textColor="@color/light_text_primary"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:background="@drawable/preview_background"
+                        android:padding="12dp"
+                        android:layout_marginBottom="16dp" />
+
+                    <!-- Accent Color -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Accent Color"
+                        android:textColor="@color/light_text_primary"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select the accent color for the app"
+                        android:textColor="@color/light_text_secondary"
+                        android:textSize="12sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_marginBottom="8dp">
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/accentColorCard1"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="8dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardBackgroundColor="@color/primary"
+                            app:strokeWidth="0dp"
+                            app:strokeColor="@color/white" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/accentColorCard2"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="8dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardBackgroundColor="@color/blue"
+                            app:strokeWidth="0dp"
+                            app:strokeColor="@color/white" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/accentColorCard3"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="8dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardBackgroundColor="@color/purple"
+                            app:strokeWidth="0dp"
+                            app:strokeColor="@color/white" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/accentColorCard4"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="8dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardBackgroundColor="@color/orange"
+                            app:strokeWidth="0dp"
+                            app:strokeColor="@color/white" />
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:id="@+id/accentColorCard5"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="8dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:strokeWidth="1dp"
+                            app:strokeColor="@color/light_border" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Other Settings Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Other Settings"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/light_text_primary"
+                        android:layout_marginBottom="16dp" />
+
+                    <!-- Notifications -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/notificationsCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="?attr/backgroundColor"
+                        android:layout_marginBottom="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_notifications"
+                                app:tint="@color/primary" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Notifications"
+                                android:textColor="@color/light_text_primary"
+                                android:textSize="16sp"
+                                android:layout_marginStart="16dp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_arrow_right"
+                                app:tint="@color/light_text_secondary" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Profile Settings -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/profileCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="?attr/backgroundColor"
+                        android:layout_marginBottom="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_person"
+                                app:tint="@color/primary" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Profile Settings"
+                                android:textColor="@color/light_text_primary"
+                                android:textSize="16sp"
+                                android:layout_marginStart="16dp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_arrow_right"
+                                app:tint="@color/light_text_secondary" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Help &amp; Support -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/helpCenterCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="?attr/backgroundColor"
+                        android:layout_marginBottom="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_help"
+                                app:tint="@color/primary" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Help &amp; Support"
+                                android:textColor="@color/light_text_primary"
+                                android:textSize="16sp"
+                                android:layout_marginStart="16dp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_arrow_right"
+                                app:tint="@color/light_text_secondary" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Emergency SOS -->
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/emergencySOSCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="2dp"
+                        app:cardBackgroundColor="?attr/backgroundColor">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="16dp"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_sos"
+                                app:tint="@color/red" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Emergency SOS"
+                                android:textColor="@color/light_text_primary"
+                                android:textSize="16sp"
+                                android:layout_marginStart="16dp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_arrow_right"
+                                app:tint="@color/light_text_secondary" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- App Info -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/light_text_primary"
+                        android:layout_marginBottom="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TranxortRider"
+                        android:textColor="@color/light_text_primary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Version 1.0.0"
+                        android:textColor="@color/light_text_secondary"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="© 2023 Tranxort Technologies. All rights reserved."
+                        android:textColor="@color/light_text_tertiary"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/red"
+        android:layout_margin="16dp" />
+</RelativeLayout>

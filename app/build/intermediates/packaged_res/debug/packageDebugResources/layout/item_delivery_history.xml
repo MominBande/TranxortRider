@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/deliveryCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        
+        <!-- Top section with date and order ID -->
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-light"
+            tools:text="Jun 15, 2023 - 12:30 PM" />
+            
+        <TextView
+            android:id="@+id/orderIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/light_text_primary"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium"
+            tools:text="Order #12345" />
+            
+        <!-- Divider -->
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/dateText"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/divider_color" />
+            
+        <!-- Customer and Restaurant Info -->
+        <ImageView
+            android:id="@+id/customerIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/divider1"
+            android:src="@drawable/ic_person"
+            app:tint="@color/light_text_secondary" />
+            
+        <TextView
+            android:id="@+id/customerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider1"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/customerIcon"
+            android:text="Customer:"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="12sp" />
+            
+        <TextView
+            android:id="@+id/customerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider1"
+            android:layout_marginStart="4dp"
+            android:layout_toEndOf="@id/customerLabel"
+            android:textColor="@color/light_text_primary"
+            android:textSize="14sp"
+            tools:text="John Smith" />
+            
+        <ImageView
+            android:id="@+id/restaurantIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/customerIcon"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_restaurant"
+            app:tint="@color/light_text_secondary" />
+            
+        <TextView
+            android:id="@+id/restaurantLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/customerLabel"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/restaurantIcon"
+            android:text="Restaurant:"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="12sp" />
+            
+        <TextView
+            android:id="@+id/restaurantText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/customerText"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/restaurantLabel"
+            android:textColor="@color/light_text_primary"
+            android:textSize="14sp"
+            tools:text="Pizza Palace" />
+            
+        <!-- Divider -->
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/restaurantText"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/divider_color" />
+            
+        <!-- Amount and Earning -->
+        <TextView
+            android:id="@+id/amountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider2"
+            android:text="Amount:"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="12sp" />
+            
+        <TextView
+            android:id="@+id/amountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider2"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/amountLabel"
+            android:textColor="@color/light_text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="$25.99" />
+            
+        <TextView
+            android:id="@+id/earningLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider2"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/amountText"
+            android:text="Earning:"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="12sp" />
+            
+        <TextView
+            android:id="@+id/earningText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider2"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/earningLabel"
+            android:textColor="@color/primary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="$5.50" />
+            
+        <!-- Status, Distance, Delivery Time -->
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amountLabel"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/status_background"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            android:textColor="@color/primary"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-medium"
+            tools:text="Completed" />
+            
+        <TextView
+            android:id="@+id/distanceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amountLabel"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/statusText"
+            android:drawableStart="@drawable/ic_distance"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="12sp"
+            tools:text="3.2 km" />
+            
+        <TextView
+            android:id="@+id/deliveryTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/amountLabel"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/distanceText"
+            android:drawableStart="@drawable/ic_time"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/light_text_secondary"
+            android:textSize="12sp"
+            tools:text="15 min" />
+            
+    </RelativeLayout>
+</androidx.cardview.widget.CardView> 

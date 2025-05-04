@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tranxortrider.deliveryrider.app-mergeDebugResources-56:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\QBC\\AndroidStudioProjects\\TranxortRider\\app\\src\\main\\res\\values-sw360dp\\dimens.xml",
+                    "from": {
+                        "startLines": "10,14,13,19,18,15,6,5,4,7,3,17,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "396,563,514,814,767,614,251,204,159,297,117,717,670",
+                        "endColumns": "42,49,47,47,45,54,44,45,43,41,40,48,45",
+                        "endOffsets": "434,608,557,857,808,664,291,245,198,334,153,761,711"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,148,196,244,290,345,390,436,480,522,563,612",
+                        "endColumns": "42,49,47,47,45,54,44,45,43,41,40,48,45",
+                        "endOffsets": "93,143,191,239,285,340,385,431,475,517,558,607,653"
+                    }
+                }
+            ]
+        }
+    ]
+}

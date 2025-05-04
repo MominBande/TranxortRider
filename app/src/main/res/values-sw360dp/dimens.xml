@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Optimized dimensions for common phone screens -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">20dp</dimen>
+    <dimen name="spacing_xl">28dp</dimen>
+    
+    <!-- Component sizes for smaller screens -->
+    <dimen name="avatar_size">36dp</dimen>
+    
+    <!-- Responsive layout values optimized for smaller phones -->
+    <dimen name="icon_button_size">32dp</dimen>
+    <dimen name="icon_button_radius">16dp</dimen>
+    <dimen name="notification_badge_size">16dp</dimen>
+    <dimen name="stat_icon_size">40dp</dimen>
+    <dimen name="stat_icon_padding">10dp</dimen>
+    <dimen name="list_icon_size">40dp</dimen>
+    <dimen name="list_icon_padding">9dp</dimen>
+</resources> 

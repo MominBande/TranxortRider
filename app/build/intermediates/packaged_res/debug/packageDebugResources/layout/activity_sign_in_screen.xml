@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".sign_in_screen">
+
+    <!-- Top area with gradient background -->
+    <View
+        android:id="@+id/topBackground"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/top_bar_gradient"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Main content card -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="@dimen/spacing_medium"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        style="@style/Widget.TranxortRider.CardView">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="@dimen/spacing_large"
+                android:paddingBottom="@dimen/spacing_large"
+                android:paddingTop="80dp">
+
+                <!-- Welcome Text -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome back"
+                    android:textAppearance="@style/TextAppearance.TranxortRider.Headline"
+                    android:textColor="@color/primary"
+                    android:layout_marginBottom="@dimen/spacing_xs"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please enter your email id or password to Sign In"
+                    android:textAppearance="@style/TextAppearance.TranxortRider.Body"
+                    android:textColor="@color/primary_light"
+                    android:layout_marginBottom="@dimen/spacing_xl"/>
+
+                <!-- Email Input Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_medium"
+                    app:startIconDrawable="@drawable/ic_email"
+                    app:startIconTint="@color/primary"
+                    app:boxStrokeWidth="0dp"
+                    app:boxStrokeWidthFocused="0dp"
+                    app:boxBackgroundMode="filled"
+                    app:boxBackgroundColor="#F5F7FA"
+                    app:hintEnabled="false"
+                    app:shapeAppearance="@style/ShapeAppearance.TranxortRider.MediumComponent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/input_field_height"
+                        android:hint="Email ID"
+                        android:textAppearance="@style/TextAppearance.TranxortRider.Body"
+                        android:textColorHint="@color/light_text_secondary"
+                        android:inputType="textEmailAddress"
+                        android:paddingVertical="@dimen/spacing_medium"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Password Input Field -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_small"
+                    app:startIconDrawable="@drawable/ic_lock"
+                    app:startIconTint="@color/primary"
+                    app:boxStrokeWidth="0dp"
+                    app:boxStrokeWidthFocused="0dp"
+                    app:boxBackgroundMode="filled"
+                    app:boxBackgroundColor="#F5F7FA"
+                    app:hintEnabled="false"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/primary"
+                    app:shapeAppearance="@style/ShapeAppearance.TranxortRider.MediumComponent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/input_field_height"
+                        android:hint="Password"
+                        android:textAppearance="@style/TextAppearance.TranxortRider.Body"
+                        android:textColorHint="@color/light_text_secondary"
+                        android:inputType="textPassword"
+                        android:paddingVertical="@dimen/spacing_medium"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Forgot Password -->
+                <TextView
+                    android:id="@+id/forgotPasswordText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password"
+                    android:textAppearance="@style/TextAppearance.TranxortRider.Link"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="@dimen/spacing_xl"
+                    android:padding="@dimen/spacing_xs"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"/>
+
+                <!-- Sign In Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/signInButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:text="Sign In"
+                    style="@style/Widget.TranxortRider.Button"
+                    android:layout_marginBottom="@dimen/spacing_large"/>
+
+                <!-- Google Sign In Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/googleSignInButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:text="Sign in with Google"
+                    style="@style/Widget.TranxortRider.Button.OutlinedButton"
+                    app:icon="@drawable/ic_google"
+                    app:iconTint="@null"
+                    app:iconGravity="textStart"
+                    app:iconPadding="@dimen/spacing_small"
+                    android:layout_marginBottom="@dimen/spacing_xl"/>
+
+                <!-- Sign Up Section -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Don't have an account? "
+                        android:textAppearance="@style/TextAppearance.TranxortRider.Body.Small"
+                        android:textColor="@color/primary_light"/>
+
+                    <TextView
+                        android:id="@+id/signUpText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sign Up"
+                        android:textAppearance="@style/TextAppearance.TranxortRider.Link"
+                        android:padding="@dimen/spacing_xs"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:focusable="true"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Logo positioned to overlap between gradient and card -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/app_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:elevation="10dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="17dp"
+        android:contentDescription="App Logo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

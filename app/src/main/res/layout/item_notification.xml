@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <View
+            android:id="@+id/unreadIndicator"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/circle_shape"
+            android:backgroundTint="@color/primary" />
+
+        <ImageView
+            android:id="@+id/iconView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_info"
+            android:tint="@color/primary" />
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toStartOf="@id/deleteButton"
+            android:layout_toEndOf="@id/iconView"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Notification Title"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/messageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleText"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_toStartOf="@id/deleteButton"
+            android:layout_toEndOf="@id/iconView"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="This is the notification message which can span multiple lines."
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/messageText"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/iconView"
+            android:text="Just now"
+            android:textColor="@color/light_text_tertiary"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/markReadButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/deleteButton"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Mark as read"
+            android:src="@drawable/ic_check" />
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Delete notification"
+            android:src="@drawable/ic_delete" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

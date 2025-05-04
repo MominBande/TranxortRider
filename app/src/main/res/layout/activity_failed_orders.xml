@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    tools:context=".failed_orders">
+
+    <!-- Top Bar with gradient background and elevation -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@drawable/top_bar_gradient"
+        android:elevation="4dp"
+        android:paddingHorizontal="@dimen/spacing_medium">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Failed Orders"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextAppearance.TranxortRider.Toolbar.Title"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSearch"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                app:backgroundTint="@android:color/transparent"
+                app:cornerRadius="18dp"
+                app:icon="@drawable/ic_search"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconSize="@dimen/icon_size_medium"
+                app:iconTint="@color/white" />
+
+            <FrameLayout
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="@dimen/spacing_small">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnNotifications"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:insetLeft="0dp"
+                    android:insetTop="0dp"
+                    android:insetRight="0dp"
+                    android:insetBottom="0dp"
+                    app:backgroundTint="@android:color/transparent"
+                    app:cornerRadius="18dp"
+                    app:icon="@drawable/ic_notifications"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconSize="@dimen/icon_size_medium"
+                    app:iconTint="@color/white" />
+                
+                <TextView
+                    android:id="@+id/notificationCount"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="end|top"
+                    android:background="@drawable/notification_badge_circle"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Profile Section as a card overlapping the top bar -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/profileSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBar"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profileImage"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="0dp"
+                android:src="@drawable/man"
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                app:strokeColor="@color/primary"
+                app:strokeWidth="2dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome back,"
+                    android:textColor="@color/light_text_secondary"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif-light" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="David Chen"
+                    android:textColor="@color/light_text_primary"
+                    android:textSize="22sp"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDutyStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/primary"
+                android:paddingHorizontal="16dp"
+                android:text="On Duty"
+                android:textColor="@android:color/white"
+                app:cornerRadius="12dp"
+                app:elevation="2dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Stats Cards with improved styling -->
+    <LinearLayout
+        android:id="@+id/statsSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileSection"
+        android:padding="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/stat_icon_background"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_delivery"
+                    app:shapeAppearanceOverlay="@style/CircleImageView"
+                    app:tint="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvDeliveryCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24"
+                    android:textColor="@color/primary"
+                    android:textSize="26sp"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deliveries"
+                    android:textColor="@color/light_text_secondary" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/stat_icon_background"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_time"
+                    app:shapeAppearanceOverlay="@style/CircleImageView"
+                    app:tint="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvOnTimeRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="98%"
+                    android:textColor="@color/primary"
+                    android:textSize="26sp"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On Time"
+                    android:textColor="@color/light_text_secondary" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!-- Order Status Tabs with improved chips -->
+    <HorizontalScrollView
+        android:id="@+id/filterSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statsSection"
+        android:scrollbars="none"
+        android:paddingVertical="8dp">
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            app:singleSelection="true"
+            app:selectionRequired="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipAllOrders"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Orders (10)"
+                app:chipBackgroundColor="@color/chip_background_selector"
+                app:chipStrokeColor="@color/primary"
+                app:chipStrokeWidth="1dp"
+                app:chipMinHeight="40dp"
+                android:textColor="@color/chip_text_selector" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipPending"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Pending (1)"
+                app:chipBackgroundColor="@color/chip_background_selector"
+                app:chipStrokeColor="@color/primary"
+                app:chipStrokeWidth="1dp"
+                app:chipMinHeight="40dp"
+                android:textColor="@color/chip_text_selector" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipInProgress"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="In Progress (4)"
+                app:chipBackgroundColor="@color/chip_background_selector"
+                app:chipStrokeColor="@color/primary"
+                app:chipStrokeWidth="1dp"
+                app:chipMinHeight="40dp"
+                android:textColor="@color/chip_text_selector" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCompleted"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Completed (4)"
+                app:chipBackgroundColor="@color/chip_background_selector"
+                app:chipStrokeColor="@color/primary"
+                app:chipStrokeWidth="1dp"
+                app:chipMinHeight="40dp"
+                android:textColor="@color/chip_text_selector" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipFailed"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Failed (4)"
+                android:checked="true"
+                app:chipBackgroundColor="@color/chip_background_selector"
+                app:chipStrokeColor="@color/primary"
+                app:chipStrokeWidth="1dp"
+                app:chipMinHeight="40dp"
+                android:textColor="@color/chip_text_selector" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+
+    <!-- Orders List with improved styling -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFailedOrders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNav"
+        android:layout_below="@id/filterSection"
+        android:clipToPadding="false"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp" />
+
+    <!-- Empty layout with modern styling -->
+    <LinearLayout
+        android:id="@+id/emptyStateContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/ic_delivery"
+            app:tint="#F44336" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="No failed orders"
+            android:textColor="@color/light_text_primary"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Failed deliveries will appear here"
+            android:textColor="@color/light_text_secondary"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+    <!-- Bottom Navigation with elevation -->
+    <include
+        android:id="@+id/bottomNav" 
+        layout="@layout/layout_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout> 

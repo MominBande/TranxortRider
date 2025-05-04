@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/success_background_gradient"
+    tools:context=".registration_successfull">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="40dp">
+
+            <!-- Success Icon with animation container -->
+            <FrameLayout
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginBottom="32dp">
+                
+                <!-- Background circle -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/success_icon_background" />
+                
+                <!-- Success Icon -->
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/successIcon"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_success"
+                    app:tint="@color/primary" />
+            </FrameLayout>
+
+            <!-- Title with improved typography -->
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registration Successful"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/primary"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Success Message with improved typography -->
+            <TextView
+                android:id="@+id/successMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your account has been successfully created.\nAfter documents approval, you can start your Workorders."
+                android:textSize="16sp"
+                android:textColor="@color/light_text_secondary"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:layout_marginBottom="30dp" />
+
+            <!-- Continue Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnContinue"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Continue to Login"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-medium"
+                app:cornerRadius="12dp"
+                app:backgroundTint="@color/primary" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Animated Confetti Overlay (Optional - requires implementation) -->
+    <View
+        android:id="@+id/confettiOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
